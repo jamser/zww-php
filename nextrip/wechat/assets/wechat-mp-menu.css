@@ -1,0 +1,68 @@
+.wechat-dialog {
+    background: #EBEBEB;
+    width:380px;
+    height: 400px;
+    position: relative;
+}
+.wechat-dialog-header {
+    background: #373B3E;
+    color: #fff;
+    height:50px;
+    line-height: 50px;
+    text-indent: 10px;
+    font-weight: 600;
+}
+.wechat-menus {
+    border-top: 1px solid #BCBCBC;
+    height:50px;
+    line-height: 50px;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width:100%;
+    background: #fff;
+    color:#6D6D6D
+}
+.wechat-menu {
+    margin:0;
+    padding:0;
+    text-align: center;
+    height:50px;
+    line-height: 50px;
+    cursor: pointer;
+    position: relative;
+    float:left;
+    width:100%;
+}
+.wm-sub {
+    position: absolute;
+    top:-100px;
+    left:0;
+    width:100%;
+    border:1px solid #ccc;
+    border-top:none;
+    border-bottom: none;
+}
+.actions {
+    margin:10px;
+}
+#wm_sub_form {
+    margin-top:15px;
+}
+.wm-sub-form {
+    margin-bottom: 15px;
+}
+.wm-sub-button{
+    height:40px;
+    line-height: 40px;
+    width:100%;
+    text-align: center;
+    background: #ccc;
+    border-top:1px solid #ccc;
+    color:#666;
+}
+
+.wechat-menu ul,.wechat-menu li {
+    list-style: none;
+    padding:0;
+}

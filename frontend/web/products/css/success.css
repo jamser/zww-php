@@ -1,0 +1,47 @@
+.alert_father {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.4;
+  z-index: 1;
+}
+.alert_father .alert_son {
+  width: 100%;
+  height: 100%;
+  background: url(../img/Alert/Alert_GrabSuccess_Dialog.png) no-repeat top center;
+  background-size: 5.4rem 8.6rem;
+  position: relative;
+}
+.alert_father .alert_son .btn_again {
+  width: 3.96rem;
+  height: 0.54rem;
+  background: null;
+  position: absolute;
+  top: 7.11rem;
+  left: 1.25rem;
+  background: url(../img/Alert/Alert_GrabFailure_TryAgain.png) no-repeat center center;
+  background-size: 100% 100% ;
+  border: none;
+}
+.alert_father .alert_son .btn_change {
+  width: 1.92rem;
+  height: 0.54rem;
+  background: null;
+  position: absolute;
+  top: 7.75rem;
+  left: 1.25rem;
+  background: url(../img/Alert/Alert_GrabSuccess_CheckBox.png) no-repeat center center;
+  background-size: 100% 100% ;
+   border: none;
+}
+.alert_father .alert_son .btn_leave {
+  width: 1.92rem;
+  height: 0.54rem;
+  background: null;
+  position: absolute;
+  top: 7.75rem;
+  left: 3.30rem;
+  background: url(../img/Alert/Alert_GrabSuccess_Close.png) no-repeat center center;
+  background-size: 100% 100% ;
+   border: none;
+}

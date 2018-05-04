@@ -1,0 +1,44 @@
+*{border: none;}
+.whb(@w,@h,@b){
+    width:@w;
+    height: @h;
+    background: @b;
+}
+.alert_father{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.4;
+    z-index: 1;
+    .alert_son{
+        width: 100%;
+        height: 100%;
+        background: url(../img/Alert/Alert_GrabFailure_Dialog.png) no-repeat top center;
+        background-size:5.4rem 7.9rem;
+        position: relative;
+        .btn_again{
+            .whb(3.96rem,0.54rem,null);
+            position: absolute;
+            top: 6.37rem;
+            left: 1.25rem;
+            background: url(../img/Alert/Alert_GrabFailure_TryAgain.png) no-repeat center center;
+            background-size:100% 100% ;
+        }
+        .btn_change{
+            .whb(1.92rem,0.54rem,null);
+            position: absolute;
+            top: 7.02rem;
+            left: 1.25rem;
+            background: url(../img/Alert/Alert_GrabFailure_NoTry_2.png) no-repeat center center;
+            background-size:100% 100% ;
+        }
+        .btn_leave{
+            .whb(1.92rem,0.54rem,null);
+            position: absolute;
+            top: 7.02rem;
+            left: 3.30rem;
+            background: url(../img/Alert/Alert_GrabFailure_NoTry.png) no-repeat center center;
+            background-size:100% 100% ;
+        }
+    }
+}

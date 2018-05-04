@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@import url(reset.css);
+@import url(../fonts/iconfont.css);
+
+html,body,.wrap{
+	width: 100%;
+	height: 100%;
+	justify-content: space-between;
+}
+.wrap{
+	display: flex;
+	flex-direction: column;
+	background-image: url(../images/background.png);
+	background-size:100% 100%;
+}
+
+section{
+	width: 100%;
+	flex:1;
+	overflow-y:scroll;
+	.title{
+		width: 50%;
+		height: 1.05rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin:0 auto;
+		img{
+			margin-top: 0.2rem;
+			width:100%;
+			height:auto;
+		}
+	}
+	.video{
+		width:90%;
+		margin-left:5%;
+		margin-top:0.05rem;
+		img{
+			margin-top: 0.1rem;
+			width:100%;
+			height: 100%;
+		}
+		/*video{
+			width: 100%;
+			height: 100%;
+		}*/
+	}
+	.play{
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 0.2rem;
+		img{
+			width:100%;
+			height: auto;
+		}
+	}
+	.content{
+		width:90%;
+		margin-left:5%;
+		h5{
+			width:100%;
+			height:0.5rem;
+			color: #fff8fa;
+			font-size:0.32rem;
+			text-align: center;
+			margin-top: 0.37rem;
+			a{
+				color: #fff8fa;
+			    font-size:0.32rem;
+			}
+		}
+		h3{
+			width:100%;
+			height:0.5rem;
+			color: #fff8fa;
+			font-size:0.49rem;
+			text-align: center;
+			margin-top: 0.05rem;
+			a{
+				color: #fff8fa;
+			    font-size:0.49rem;
+			    text-decoration:underline
+			}
+		}
+		ul{
+			width:100%;
+			margin:0 auto;
+			display: flex;
+			align-items: center;
+			flex-wrap: wrap;
+			margin-top:0.2rem;
+			color: #fff;
+			li{
+				font-size: 0.2rem;
+				margin-left:0.1rem;
+				line-height: 0.4rem;
+				span{
+					display: inline-block;
+					width:0.2rem;
+					height:0.2rem;
+					background-image: url(../images/aa.png);
+					background-size:100% 100%;
+				}
+			}
+		}
+		.button{
+			width:100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 0.28rem;
+			button{
+				width:50%;
+				background: none;
+				outline: none;
+				border:none;
+				img{
+					width:100%;
+					height: auto;
+				}
+			}
+
+		}
+	}
+}
+
+.pop-up{
+	position: fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	background: rgba(0, 0, 0, .5);
+	video{
+		width:100%;
+		height:100%;
+	}
+}
+/*footer{
+	width: 100%;
+	height: 0.8rem;
+	background: orange;
+	display: flex;
+}*/

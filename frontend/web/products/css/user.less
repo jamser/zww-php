@@ -1,0 +1,87 @@
+*{margin: 0;padding: 0;border: none;list-style: none;text-decoration: none;}
+body,html{
+    font-size: 100%;
+}
+.whb(@w,@h,@b){
+    width:@w;
+    height: @h;
+    background: @b;
+}
+body,html{
+     .whb(100%,100%,null);
+     overflow: hidden;
+}
+.wrap{
+    .whb(100%,100%,#53ccc7);
+    font-size: 0.24rem;
+    .header{
+        .whb(100%,1.23rem,yellow);
+        background: url(../img/Common/Common_BgImage_Top_2.png) no-repeat center center;
+        background-size:100% 100%;
+        position: relative;
+        .retreat{
+            display: block;
+            .whb(0.62rem,0.62rem,yellow);
+            background: url(../img/Common/Common_Nav_Return.png) no-repeat center center;
+            background-size:100% 100% ;
+            position: absolute;
+            top: 0.35rem;
+            left: 0.15rem;
+        }
+    }
+    .main{
+        .whb(5.88rem,7.26rem,null);
+        margin-top: 1rem;
+        margin-left: 0.28rem;
+        background: url(../img/Setup/Setup_BgImage_UserInfo.png) no-repeat center center;
+        background-size:100% 100% ;
+        position: relative;
+        .user_img{
+           .whb(1.94rem,1.94rem,#fff);
+           position: absolute;
+           top: 1.5rem;
+           left: 2rem;
+        }
+        .box_name{
+            .whb(4.74rem,0.68rem,yellow);     
+             background: url(../img/Setup/Setup_BgImage_NickName.png)no-repeat center center;
+            background-size:100% 100% ;
+            position: absolute;
+            top: 3.73rem;
+            left: 0.52rem;
+        }
+        .box_sex{
+            .whb(4.74rem,0.68rem,yellow);
+            background: url(../img/Setup/Setup_BgImage_Gender.png) no-repeat center center;
+            background-size:100% 100% ;
+            position: absolute;
+            top: 4.7rem;
+            left: 0.52rem;
+        }
+        .box_birthday{
+            .whb(4.74rem,0.68rem,yellow);
+            background: url(../img/Setup/Setup_BgImage_Birth.png) no-repeat center center;
+            background-size:100% 100% ;
+            position: absolute;
+            top: 5.6rem;
+            left: 0.52rem;
+        }
+        input{
+            .whb(3.08rem,0.42rem,#606060);
+            float: right;
+            margin-right: 0.16rem;
+            margin-top: 0.12rem;
+            border-radius: 0.16rem;
+            
+        }
+    }
+    .box-submit{
+        .whb(5.87rem,0.66rem,#606060);
+        float: left;
+        margin: 0.45rem 0 0 0.26rem;
+        background: url(../img/Setup/Setup_Button_SureSummit.png) no-repeat center center;
+        background-size:100% 100% ;
+        
+    }
+    
+}

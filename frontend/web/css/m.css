@@ -1,0 +1,426 @@
+html,
+body {
+    height: 100%;
+}
+
+.red {
+    color:red;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: "\e151";
+}
+
+a.desc:after {
+    content: "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav > li > form {
+    padding: 8px;
+}
+
+@media(max-width:768px) {
+	.nav li > form {
+	    padding: 3px;
+	}
+}
+
+.nav > li > form > button:hover {
+    text-decoration: none;
+}
+
+.margin10 {
+    margin:10px;
+}
+
+a .icon-star {
+    color: gray
+}
+
+a.active .icon-star {
+    color:orange;
+}
+
+/*公共样式*/
+.left {
+    float:left;
+}
+.right {
+    float:right;
+}
+.mt5 {margin-top:5px;}
+.mr5{margin-right: 5px;}
+.mt10 {margin-top:10px;}
+.mb10 {margin-bottom:10px;}
+.ml10 {margin-left:10px;}
+.mr10 {margin-right:10px;}
+.ml10 {margin-left:10px;}
+.margin10 {margin:10px;}
+.mt20 {margin-top:20px;}
+.mb20 {margin-bottom:20px;}
+.ml20 {margin-left:20px;}
+.mr20 {margin-right:20px;}
+.ml20 {margin-left:20px;}
+.margin20 {margin:20px;}
+
+.gray-bg {
+    background: #F8F8F8;
+}
+
+.header-group {
+    padding:20px;
+    background: #fff;
+}
+
+/*用户中心*/
+
+.user-index {
+    
+}
+
+.user-index .avatar {
+    border-radius: 80px;
+    border:1px solid #eee;
+    width:80px;
+    height:80px;
+    overflow: hidden;
+}
+.user-index .profile {
+    padding-top:10px;
+    margin-left:100px;
+}
+.user-index .nickname {
+    font-size: 16px;
+    margin-left:8px;
+}
+.user-index .btns {
+    padding-top:5px;
+}
+
+.user-index .group-header {
+    font-size: 16px;
+}
+
+.user-index-wallet .icon {
+    margin-right: 10px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.user-update .header-group {
+    text-align: center;
+    background: none;
+    margin-bottom: 10px;
+}
+
+.user-update .avatar {
+    border-radius: 4px;
+    border:1px solid #eee;
+    width:80px;
+    height:80px;
+    overflow: hidden;
+}
+
+.user-update .form-group {
+    background:#fff;
+    margin-top:10px;
+}
+
+.user-update .btn-edit-avatar {
+
+}
+
+/*Caller*/
+.call-caller-apply .form-group {
+    background:#fff;
+    margin-top:10px;
+}
+
+.caller-index-header {
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+
+.caller-index-header .avatar {
+    border-radius: 80px;
+    overflow: hidden;
+    width:80px;
+    height:80px;
+    margin: 0 auto;
+}
+
+.caller-index-header .nickname {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.icon-venus {
+    color:#8ec5f6;
+}
+
+.icon-mars {
+    color:#fd8eac;
+}
+
+.booking-first-row .btn-remove-booking {
+    display: none;
+}
+
+.weui-panel_pager{
+    margin-left:15px;
+    border-top: 1px solid #eee;
+}
+.weui-panel_pager_btn {
+    height:46px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.btn-select-recharge-amount {
+    display: inline-block;
+    width: 48%;
+    margin:5px 2px;
+    border:1px solid #eee;
+    color:#666;
+    padding:6px 0;
+    text-align: center;
+}
+
+.btn-select-recharge-amount.active {
+    border:1px solid #1aad19;
+    color:#1aad19;
+}
+
+.recharge-dialog .weui-mask {
+    z-index: 6000;
+}
+
+.recharge-dialog .weui-dialog {
+    z-index: 7000;
+}
+
+.wallet-blance .header {
+    text-align: center;
+    margin:60px auto 40px;
+    font-size: 60px;
+    color:orange;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.wallet-desc {
+    color: #888;
+}
+
+/* app 下载导流 */
+.app-download {
+    background:#FFE4F5;
+}
+
+.app-download-part {
+    position: relative;
+}
+
+.app-download-header {
+    margin:20px auto;
+}
+
+.app-download-content .content-title {
+    margin:20px 40px;
+}
+
+.app-download-content .content-title img {
+    width:100%;
+}
+.content-body {
+    margin:30px auto;
+}
+.container1{
+    position: relative;
+}
+.invite-code {
+    font-weight: 600;
+    /* margin:30px auto; */
+    font-size: .6rem;
+    position: absolute;
+    top: 5.4rem;
+    width: 100%;
+    text-align: center;
+    /* left: 50%; */
+    /* margin-left: -95px; */
+    color: #FFF;
+}
+
+.app-download-content .btn-download {
+    width:200px;
+}
+.app-download-content .btn-download img {
+    width:200px;
+}
+
+.content-footer {
+    margin:10px 40px;
+    position: relative;
+    vertical-align: middle;
+    padding-top:20px;
+    font-size: 16px;
+    font-weight: 600;
+    color:#302F30;
+}
+
+.content-footer .border {
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.border-icon {
+    width:30px;
+    position: absolute;
+    top:-15px;
+    left:-15px;
+}
+
+.app-download-video {
+    
+}
+
+.video-bg-box {
+    
+}
+
+.video-bg {
+    width:100%;
+    
+}
+
+.btn-play-container .btn-play {
+    width:50px;
+    height:50px;
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    margin:auto;
+}
+
+.btn-play-container {
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    text-align: center;
+    vertical-align: middle;
+}
+.hideContent{
+    display: none;
+    text-align: center;
+    line-height:1rem;
+    width: 24rem;
+    height: 1rem;
+    background: #000;
+    opacity: .8;
+    color:#fff;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    margin-left: -12rem;
+}
+#copy{
+    position: absolute;
+    top: 6.3rem;
+    left: 50%;
+    width: 70px;
+    margin-left: -35px;
+    opacity: 0;
+}

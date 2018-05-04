@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+}
+body,
+html {
+  font-size: 100%;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: null;
+  overflow: hidden;
+}
+.wrap {
+  width: 100%;
+  height: 100%;
+  background: #53ccc7;
+  font-size: 0.24rem;
+}
+.wrap .header {
+  width: 100%;
+  height: 1.23rem;
+  background: #ffff00;
+  background: url(../img/Common/Common_BgImage_Top_2.png) no-repeat center center;
+  background-size: 100% 100%;
+  position: relative;
+}
+.wrap .header .retreat {
+  display: block;
+  width: 0.62rem;
+  height: 0.62rem;
+  background: #ffff00;
+  background: url(../img/Common/Common_Nav_Return.png) no-repeat center center;
+  background-size: 100% 100% ;
+  position: absolute;
+  top: 0.35rem;
+  left: 0.15rem;
+}
+.wrap .main {
+  width: 5.88rem;
+  height: 7.26rem;
+  background: null;
+  margin-top: 1rem;
+  margin-left: 0.28rem;
+  background: url(../img/Setup/Setup_BgImage_UserInfo.png) no-repeat center center;
+  background-size: 100% 100% ;
+  position: relative;
+}
+.wrap .main .user_img {
+  width: 1.94rem;
+  height: 1.94rem;
+  background: #ffffff;
+  position: absolute;
+  top: 1.5rem;
+  left: 2rem;
+}
+.wrap .main .box_name {
+  width: 4.74rem;
+  height: 0.68rem;
+  background: #ffff00;
+  background: url(../img/Setup/Setup_BgImage_NickName.png) no-repeat center center;
+  background-size: 100% 100% ;
+  position: absolute;
+  top: 3.73rem;
+  left: 0.52rem;
+}
+.wrap .main .box_sex {
+  width: 4.74rem;
+  height: 0.68rem;
+  background: #ffff00;
+  background: url(../img/Setup/Setup_BgImage_Gender.png) no-repeat center center;
+  background-size: 100% 100% ;
+  position: absolute;
+  top: 4.7rem;
+  left: 0.52rem;
+}
+.wrap .main .box_birthday {
+  width: 4.74rem;
+  height: 0.68rem;
+  background: #ffff00;
+  background: url(../img/Setup/Setup_BgImage_Birth.png) no-repeat center center;
+  background-size: 100% 100% ;
+  position: absolute;
+  top: 5.6rem;
+  left: 0.52rem;
+}
+.wrap .main input {
+  width: 3.08rem;
+  height: 0.42rem;
+  background: #606060;
+  float: right;
+  margin-right: 0.16rem;
+  margin-top: 0.12rem;
+  border-radius: 0.16rem;
+  outline: none;
+}
+.wrap .box-submit {
+  width: 5.87rem;
+  height: 0.66rem;
+  background: #606060;
+  float: left;
+  margin: 0.45rem 0 0 0.26rem;
+  background: url(../img/Setup/Setup_Button_SureSummit.png) no-repeat center center;
+  background-size: 100% 100% ;
+}
